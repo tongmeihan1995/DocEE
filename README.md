@@ -12,11 +12,13 @@ We are now the largest dataset for documnet-level event extraction.
 
 | Datasets | #isDocEvent | #EvTyp. |#ArgTyp.| #Doc. | #Tok. | #Sent. | #ArgInst. | #ArgScat.|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ACE2005 | KBP2016| KBP2017 | MUC-4 | WikiEvents | RAMS | DocEE(ours) |
-
-✗  ✗
- ✓  ✓  ✓
- ✓
+| ACE2005 | ✗ | 33
+| KBP2016 | ✗ | 36
+| KBP2017 | ✗ | 18
+| MUC-4 | ✓ | 20
+| WikiEvents | ✓ | 18 
+| RAMS | ✓ | 20
+| DocEE(ours) | ✓ | 
 
 33 35 18 20 18 20 4 5 50 59
 139 65 59 356
@@ -38,3 +40,13 @@ We are now the largest dataset for documnet-level event extraction.
 DocEE focus on the extraction of the main event, that is *one-event-per-document*. 
 ![image](https://github.com/tongmeihan1995/DocEE/blob/main/image/dataset_display.pdf)
 
+# How do I cite DocEE？
+For now, cite the NAACL paper:
+'''
+@article{tongdocee,
+  title={DocEE: A Large-Scale and Fine-grained Benchmark for Document-level Event Extraction},
+  author={Tong, Meihan and Xu, Bin and Wang, Shuai and Han, Meihuan and Cao, Yixin and Zhu, Jiangqi and Chen, Siyu and Hou, Lei and Li, Juanzi}
+  journal={2022 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
+  year={2022}
+}
+'''
