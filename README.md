@@ -9,8 +9,11 @@ Our academic paper which describes DocEE in detail and provides full event ontol
 
 # Dataset Statistic
 We are now the largest dataset for documnet-level event extraction.
-|Datasets | #isDocEvent | #EvTyp. |#ArgTyp.| #Doc. | #Tok. | #Sent. | #ArgInst. | #ArgScat.|
+
+| Datasets | #isDocEvent | #EvTyp. |#ArgTyp.| #Doc. | #Tok. | #Sent. | #ArgInst. | #ArgScat.|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ACE2005 | KBP2016| KBP2017 | MUC-4 | WikiEvents | RAMS | DocEE(ours) |
+
 ✗  ✗
  ✓  ✓  ✓
  ✓
