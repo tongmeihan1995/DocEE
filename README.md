@@ -38,15 +38,15 @@ We are now the largest dataset for documnet-level event extraction.
 
 # Dataset Display
 DocEE focus on the extraction of the main event, that is *one-event-per-document*. 
-![image](https://github.com/tongmeihan1995/DocEE/blob/main/image/dataset_display.pdf)
+![image](https://github.com/tongmeihan1995/DocEE/blob/main/image/dataset_display.png)
 
 # How do I cite DocEE？
 For now, cite the NAACL paper:
-'''
+```
 @article{tongdocee,
   title={DocEE: A Large-Scale and Fine-grained Benchmark for Document-level Event Extraction},
   author={Tong, Meihan and Xu, Bin and Wang, Shuai and Han, Meihuan and Cao, Yixin and Zhu, Jiangqi and Chen, Siyu and Hou, Lei and Li, Juanzi}
   journal={2022 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
   year={2022}
 }
-'''
+```
