@@ -7,14 +7,14 @@ DocEE, a new document-level event extraction dataset including 27,000+ events, 1
 
 Our academic paper which describes DocEE in detail and provides full event ontology can be found here: https://tongmeihan1995.github.io/meihan.github.io/research/NAACL2022.pdf.
 
-# Download
+# Download DocEE
 The dataset is now available at https://drive.google.com/drive/folders/1_cRnc2leAmOKT9Ma8koz6X8Ivl-_lapp?usp=sharing, which including three files:
 
-- *DocEE-en.json* (All Data) 
+- **DocEE-en.json**(All Data) 
 - *normal_setting* (Train/Dev/Test under Normal Setting)
 - *cross_domain_setting* (Train/Dev/Test under Cross-Domain Setting)
 
-# Data Example
+# Example of DocEE
 The figure below shows an example of DocEE. DocEE aims at **Event Classification** and **Event Arguments Extraction**. DocEE focuses on the extraction of the main event, that is *one-event-per-document*. 
 ![image](https://github.com/tongmeihan1995/DocEE/blob/main/image/dataset_display.png)
 
@@ -23,7 +23,8 @@ For each event argument, the annotation includes:
 - *start*(start_index)
 - *end*(end_index)
 - *type*(argument type)
-- *text*(argument)}
+- *text*(argument)
+
 
 # Statistics of DocEE
 We are now the largest dataset for documnet-level event extraction.
