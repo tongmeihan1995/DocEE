@@ -8,13 +8,20 @@ DocEE, a new document-level event extraction dataset including 27,000+ events, 1
 Our academic paper which describes DocEE in detail and provides full event ontology can be found here: https://tongmeihan1995.github.io/meihan.github.io/research/NAACL2022.pdf.
 
 # Download
-The dataset is now available at, which including three files:
-'''
-DocEE-en.json            All Data 
-normal_setting           Train/Dev/Test under Normal Setting
-cross_domain_setting     Train/Dev/Test under Cross-Domain Setting
-'''
+The dataset is now available at https://drive.google.com/drive/folders/1_cRnc2leAmOKT9Ma8koz6X8Ivl-_lapp?usp=sharing, which including three files:
 
+- DocEE-en.json            All Data 
+- normal_setting           Train/Dev/Test under Normal Setting
+- cross_domain_setting     Train/Dev/Test under Cross-Domain Setting
+
+# Example
+DocEE focus on the extraction of the main event, that is *one-event-per-document*. 
+![image](https://github.com/tongmeihan1995/DocEE/blob/main/image/dataset_display.png)
+
+# Annotation Format
+```
+{'start': 278, 'end': 294, 'type': 'Deceased', 'text': 'Edelmiro Cavazos'}
+```
 
 # Statistics of DocEE
 We are now the largest dataset for documnet-level event extraction.
@@ -28,15 +35,6 @@ We are now the largest dataset for documnet-level event extraction.
 | WikiEvents | ✓ | 50 | 59 | 246 | 5,536 | 2.2 |   
 | RAMS | ✓ | 139 | 65 | 9,124 | 21,237 | 4.8 |
 | DocEE(ours) | ✓ | 59 | 356 | 27,485 | 180,528 |  10.2 | 
-
-
-
-# Examples of DocEE
-DocEE focus on the extraction of the main event, that is *one-event-per-document*. 
-![image](https://github.com/tongmeihan1995/DocEE/blob/main/image/dataset_display.png)
-## Annotation Format
-'''
-'''
 
 
 # How do I cite DocEE？
