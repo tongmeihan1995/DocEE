@@ -20,12 +20,12 @@ The figure below shows an example of DocEE. DocEE aims at **Event Classification
 
 ## Annotation Format
 For each event argument, there are four keys:
-- **start**(start_index)
+- **start** (start_index)
 - **end**(end_index)
 - **type**(argument type)
 - **text**(argument)
 ```
-{'start': 278, 'end': 294, 'type': 'Deceased', 'text': 'Edelmiro Cavazos'}
+{'start': 82, 'end': 96, 'type': 'Date', 'text': 'Friday evening'}
 ```
 
 
