@@ -19,7 +19,7 @@ The figure below shows an example of DocEE. DocEE aims at **Event Classification
 ![image](https://github.com/tongmeihan1995/DocEE/blob/main/image/dataset_display.png)
 
 ## Annotation Format
-For each event argument, the annotation contains four keys:
+For each event argument, there are four keys:
 - **start**(start_index)
 - **end**(end_index)
 - **type**(argument type)
