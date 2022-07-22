@@ -11,19 +11,22 @@ Our academic paper which describes DocEE in detail and provides full event ontol
 The dataset is now available at https://drive.google.com/drive/folders/1_cRnc2leAmOKT9Ma8koz6X8Ivl-_lapp?usp=sharing, which including three files:
 
 - **DocEE-en.json**(All Data) 
-- *normal_setting* (Train/Dev/Test under Normal Setting)
-- *cross_domain_setting* (Train/Dev/Test under Cross-Domain Setting)
+- **normal_setting** (Train/Dev/Test under Normal Setting)
+- **cross_domain_setting** (Train/Dev/Test under Cross-Domain Setting)
 
 # Example of DocEE
 The figure below shows an example of DocEE. DocEE aims at **Event Classification** and **Event Arguments Extraction**. DocEE focuses on the extraction of the main event, that is *one-event-per-document*. 
 ![image](https://github.com/tongmeihan1995/DocEE/blob/main/image/dataset_display.png)
 
 ## Annotation Format
-For each event argument, the annotation includes:
-- *start*(start_index)
-- *end*(end_index)
-- *type*(argument type)
-- *text*(argument)
+For each event argument, the annotation contains four keys:
+- **start**(start_index)
+- **end**(end_index)
+- **type**(argument type)
+- **text**(argument)
+```
+{'start': 278, 'end': 294, 'type': 'Deceased', 'text': 'Edelmiro Cavazos'}
+```
 
 
 # Statistics of DocEE
