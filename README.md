@@ -1,4 +1,4 @@
-# DocEE
+# DocEE Dataset
 DocEE: A Large-Scale and Fine-grained Benchmark for Document-level Event Extraction
 
 
@@ -15,7 +15,13 @@ The dataset is now available at https://drive.google.com/drive/folders/1_cRnc2le
 - **cross_domain_setting** (Train/Dev/Test under Cross-Domain Setting)
 
 # Event Schema of DocEE
-To construct event schema, we gain insight from journalism. Journalism typically divides events into hard news and soft news (Reinemann et al., 2012; Tuchman, 1973). Hard news is a social emergency that must be reported immediately, such as earthquakes, road accidents and armed conflicts. Soft news refers to interesting incidents related to human life, such as celebrity deeds, sports events and other entertainment-centric reports. Based on the hard/soft news theory and the category framework in (Lehman-Wilzig and Seletzky, 2010), we define a total of 59 event types, with 31 hard news event types and 28 soft news event types. Detailed information is shown in **Event Schema.md**.
+To construct event schema, we gain insight from journalism, which divides events into **hard news** and **soft news** (Reinemann et al., 2012; Tuchman, 1973). 
+
+**Hard news** is a social emergency that must be reported immediately, such as earthquakes, road accidents and armed conflicts. 
+
+**Soft news** refers to interesting incidents related to human life, such as celebrity deeds, sports events and other entertainment-centric reports. 
+
+Based on the hard/soft news theory and the category framework in (Lehman-Wilzig and Seletzky, 2010), we define a total of 59 event types, with 31 hard news event types and 28 soft news event types. Detailed information is shown in **Event Schema.md**.
 
 # Example of DocEE
 The figure below shows an example of DocEE. DocEE aims at **Event Classification** and **Event Arguments Extraction**. DocEE focuses on the extraction of the main event, that is *one-event-per-document*. 
