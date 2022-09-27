@@ -1,0 +1,642 @@
+## Event Schema
+- Famous Person - Death
+    - Doctor
+    - Data
+    - Perpetrator
+    - Causes
+    - State before death
+    - Age
+    - Date
+    - People
+    - Location/Hospital
+    - Profession
+- New archeological discoveries
+    - Historical sites discovered
+    - Discover Time
+    - Archaeologist
+    - Discover Location
+    - Relics discovered and their dates
+    - Reasons for the formation of the Historical sites
+    - The organization of the discoverer
+- Famous Person - Give a speech
+    - Speaker status
+    - Speaker
+    - Location
+    - Ways to watch the speech
+    - News release agency
+    - Date
+- Organization Merge
+    - Acquisition amount
+    - Acquiree
+    - The industry in which the organization operates
+    - Acquirer
+    - Merger terms
+    - Date
+    - The leader of the merged organization
+- Financial Crisis
+    - End time
+    - Causes
+    - Unemployed Rate
+    - Affected Area
+    - policy proposals
+    - Business failures
+    - Affected industries
+    - Start time
+    - Economic Loss
+    - Economists who predicted the crisis
+- Famous Person - Sick
+    - Perpetrator
+    - Causes
+    - Doctor and Medical team
+    - Symptom
+    - Location/Hospital
+    - People
+    - Date
+- Famous Person - Marriage
+    - Wedding venue
+    - Dress designer
+    - Invited person
+    - Husband
+    - How many times get married
+    - Location
+    - Wife
+    - Cost
+    - Witness
+    - Date
+- Sports Competition
+    - Competition items
+    - MVP
+    - End time
+    - Champions
+    - Reason for postponement
+    - Lasting time
+    - Game Name
+    - Location
+    - Postpone time
+    - Host country
+    - Start time
+    - Contest participant
+    - Score
+- Join in an Orgnization
+    - Annoncement Date
+    - Join Conditions
+    - Other members of the organization
+    - Causes
+    - Effective Date
+    - Countries join the organization
+    - Organization spokesperson
+    - Declarer
+    - Organization Name
+- Famous Person - CommitCrime - Sentence
+    - Time to start sentence
+    - The sentence claimed by the prosecutor's lawyer
+    - Judgement Result/Prison Term
+    - Court time
+    - Court
+    - Place of sentence
+    - The sentence claimed by the defense lawyer
+    - Accusation
+    - Prosecution lawyer
+    - Victim
+    - Release time
+    - Judge
+    - Defense lawyer
+    - Suspect
+- Financial Aid
+    - Beneficiary
+    - Causes
+    - Sponsor
+    - Funding
+    - Location
+    - Date
+- Awards ceremony
+    - Reason for winning
+    - Employed institution
+    - Winner
+    - Host
+    - Location
+    - Date
+    - Award
+    - Award field
+- Road Crash
+    - Economic loss
+    - Investigating police
+    - Survivors
+    - Causes
+    - The hospital where the wounded was taken
+    - Location
+    - Number of vehicles involved in the crash
+    - Compensation
+    - Date
+    - Casualties and Losses
+- Tear Up Agreement
+    - Agreement Name
+    - Causes
+    - the agency who broke the agreement
+    - Date
+    - Other members of the agreement
+- Droughts
+    - Influenced People
+    - Related rivers or lakes
+    - Damaged Crops & Livestock
+    - Causes
+    - The Worst-Hit Area
+    - Number of production cuts
+    - Economic Loss
+    - Date
+    - Areas Affected
+- Diplomatic Visit
+    - People visiting
+    - Country visited
+    - Date
+    - Host
+- Famous Person - CommitCrime - Arrest
+    - Investigating police
+    - The Charged Crime
+    - Location
+    - Criminal evidence
+    - Date
+    - Suspect
+- Shipwreck
+    - Survivors
+    - Investigator of the accident
+    - Time to find the wreck
+    - Causes
+    - The state of the hull at the time of discovery
+    - Ship No.
+    - Rescue tool or method
+    - Location of wreckage found
+    - Location
+    - Missings
+    - Rescue start time
+    - Time the crew lost contact
+    - Date
+    - Agency to which the ship belongs
+    - Rescue Organizer
+    - Casualties and Losses
+- Riot
+    - Weopon used
+    - Causes
+    - Location
+    - Belligerents
+    - Economic Loss
+    - Date
+    - Casualties and Losses
+- Gas explosion
+    - Responsibility determination
+    - Economic loss
+    - Investigator of the accident
+    - Investigation results of the accident
+    - Causes
+    - The hospital where the wounded was taken
+    - Temporary Security Zone
+    - Location
+    - Number of people evacuated
+    - Compensation
+    - Date
+    - survivors
+    - Casualties and Losses
+- Hurricanes_Tornado_Storm_Blizzard
+    - Storm Formation Location
+    - Storm Name
+    - Maximum wind speed
+    - People/Organization who predicted the disaster
+    - Storm Hit Time
+    - Storm center location
+    - Storm Formation Time
+    - Tsunami Warning Level
+    - Influence people
+    - Amount of Precipitation
+    - Storm movement speed
+    - Storm Hit Location
+    - The direction of the storm
+- Organization Closed
+    - Causes
+    - Organization name
+    - Location
+    - Head of Institution
+    - Date
+- Famous Person - Recovered
+    - Type of illness
+    - Sequelae
+    - Doctor and Medical team
+    - Cost
+    - Location/Hospital
+    - People
+    - Date
+    - Treatment Method
+- Sign Agreement
+    - Agreement Name
+    - Contracting parties
+    - Agreement validity period
+    - Agreement Content
+    - Location
+    - Date
+- Bank Robbery
+    - Hostage
+    - Amount recovered
+    - Investigating agency
+    - Investigating Spokesperson
+    - Bank Name
+    - Stolen amount
+    - Weapon Used
+    - Perpetrators
+    - Location
+    - Transportation
+    - Date
+    - Arrested
+- Government Job change - Appoint_Inauguration
+    - Person appointed
+    - Employment position
+    - Appointment time
+    - Term of office
+    - The age of the person appointed
+    - Predecessor
+    - Appointer
+    - Employment agency
+    - The last job of the appointed person
+    - Inauguration time
+- Diplomatic Talks _ Diplomatic_Negotiation_ Summit Meeting
+    - Participants
+    - Topics of the meeting
+    - Achievement
+    - Summit Name
+    - Location
+    - Date
+- Mine Collapses
+    - Responsibility determination
+    - Trapped depth
+    - Economic loss
+    - Survivors
+    - Investigator of the accident
+    - Investigation results of the accident
+    - Causes
+    - The hospital where the wounded was taken
+    - Rescue start time
+    - Location
+    - Number for trapped people
+    - Number of days trapped
+    - Compensation
+    - Date
+    - Casualties and Losses
+- Famous Person - Divorce
+    - Duration of marriage
+    - Causes
+    - Announce platform
+    - Child
+    - Husband
+    - Wife
+    - Child Custody
+    - Date
+    - Property division
+- Government Policy Changes
+    - Deliberating agency
+    - Policy Name & Abbreviation
+    - Causes
+    - Effective date
+    - Policy Content
+    - Location
+    - Bill drafting agency
+    - Announcement date
+    - Invalid date
+- Disease Outbreaks
+    - Cured Rate
+    - Areas affected
+    - Susceptible population
+    - Date
+    - Number of people vaccinated and coverage rate
+    - Causes
+    - Suspected cases
+    - Number of people hospitalized
+    - Precautionary measure
+    - Symptoms
+    - Location of the outbreak
+    - Vaccine Research and Development Organization
+    - Death cases
+    - Complications
+    - Confirmed/Infected cases
+    - Death Rate
+    - Cured cases
+    - Confirmed/infected cases
+    - Epidemic data issuing agency
+    - Way for Spreading
+    - Disease Name
+    - Special medicine
+- Famous Person - CommitCrime - Investigate
+    - Investigation agency
+    - Head of Investigation Team
+    - Time to investigate
+    - Time to report the issue
+    - The reason for the investigation
+    - The Whistleblower
+    - Person under investigation
+- New achievements in aerospace
+    - Launch Date
+    - Cooperative agency
+    - Mission duration
+    - Launch Site
+    - Spacecraft Mission
+    - Spacecraft name
+    - Carrier rocket
+    - Spokeswoman/Spokesman
+    - Research & Development department Country
+    - Launch Result
+    - Participating astronauts
+    - Launch country
+- Organization Fine
+    - Lawyer
+    - Regulatory Authority
+    - Causes
+    - Fined agency
+    - Location
+    - Penalty amount
+    - Date
+- Floods
+    - Areas affected
+    - Temporary settlement
+    - Economic Loss
+    - Related rivers or lakes
+    - Number of people rescued
+    - Causes
+    - Aid agency
+    - Number of damaged houses
+    - Number of evacuated
+    - Maximum rainfall in the Affected Area
+    - Missings
+    - Water level
+    - Aid supplies/amount
+    - Date
+    - Disaster-stricken farmland
+    - Casualties and Losses
+- Volcano Eruption
+    - Last Outbreak Time
+    - Refuge
+    - Economic Loss
+    - People/Organization who predicted the disaster
+    - Causes
+    - Volcano Name
+    - Number of Damaged House
+    - Fire Warning Level
+    - Casualties and Losses
+    - Areas affected
+    - The State of the Volcano (dormant or active)
+    - Number of evacuated
+    - Outbreak Date
+- Air crash
+    - Agency to which the aircraft belongs
+    - Investigator of the accident
+    - Survivors
+    - Flight No.
+    - Causes
+    - Service years
+    - Alternate Landing Place
+    - Taking-off Place
+    - crew
+    - Location
+    - Passengers
+    - Date
+    - Initially Scheduled Landing Place
+    - Casualties and Losses
+- Insect Disaster
+    - Economic Loss
+    - Influenced Crops and Livelihood
+    - Causes
+    - Aid agency
+    - Pests
+    - Response Measures
+    - Areas affected
+    - Aid supplies/amount
+    - Date
+- Withdraw from an Orgnization
+    - Countries withdraw the organization
+    - Annoncement Date
+    - Other members of the organization
+    - Exit Conditions
+    - Causes
+    - Effective Date
+    - Organization spokesperson
+    - Declarer
+    - Organization Name
+- Tsunamis
+    - Economic loss
+    - Number of people rescued
+    - Magnitude(Tsunami heights)
+    - Causes
+    - People/Organization who predicted the disaster
+    - Aid agency
+    - Tsunami Warning Level
+    - Area Affected
+    - Tsunamis name
+    - Aid supplies/amount
+    - Number of Destroyed building
+    - Date
+    - Warning Device
+    - Casualties and Losses
+- Fire
+    - Economic loss
+    - Temporary settlement
+    - Number of people rescued
+    - Causes
+    - Aid agency
+    - Location
+    - Magnitude
+    - Aid supplies/amount
+    - Number of Destroyed building
+    - Date
+    - Casualties and Losses
+- Mass Poisoning
+    - Responsibility determination
+    - Economic loss
+    - Investigator of the accident
+    - Causes
+    - The hospital where the wounded was taken
+    - Type of the poisoning
+    - Spokeswoman/Spokesman
+    - Location
+    - Number of people evacuated
+    - Compensation
+    - Date
+    - Casualties and Losses
+- Government Job change - Resignation_Dismissal
+    - Person resignated
+    - Reason for resignation
+    - Term of office
+    - The age of the person appointed
+    - Successor
+    - Approver
+    - Employment Agency
+    - Position
+    - Date
+- Regime Change
+    - head of government
+    - Army
+    - Provisional government
+    - Country
+    - Commanders of the army
+    - Time for dignitaries to resign
+    - Date
+- Strike
+    - End time
+    - Strikers Status
+    - Strike Industry
+    - Strike Agencies
+    - Economy Loss
+    - Strikers
+    - Outcome of the strike
+    - Start time
+    - Reason for Strike
+    - Duration
+    - Boycotted institutions
+- Famine
+    - Areas affected
+    - Economic Loss
+    - Causes
+    - Aid agency
+    - Response Measures
+    - Number of People Influenced
+    - Aid supplies/amount
+    - Casualities and Losses
+    - Date
+- Protest_Online Condemnation
+    - Property damage
+    - Protesters
+    - Location
+    - Protest Slogan
+    - Reason for protest
+    - Government Reaction
+    - Date
+    - Arrested
+    - Method
+    - Casualties and Losses
+- Armed Conflict
+    - Attacker
+    - End time
+    - Weapon and Equippment used
+    - Military Strength(Units involved)
+    - Destruction of installations
+    - Target
+    - Location
+    - Date
+    - Lasting time
+    - Casualties and Losses
+- Government Job change - Election
+    - Turnout(who win who lost)
+    - Voting method
+    - The Final Vote Number and Percentage
+    - People casting tie-breaking votes
+    - The Final Seats Result
+    - Location
+    - Electoral System
+    - Election Reason/Goal
+    - Candidates and their parties
+    - Candidate scandal(Allegations of fraud, etc.)
+    - Election Name
+    - Date
+- Military Excercise
+    - Weapons used in military exercises
+    - The purpose of the military exercise
+    - Countries participating in the military exercise
+    - Commanders and their position
+    - location
+    - The name of the military exercise
+    - Military Exercise Items
+    - Number of people participating in the military exercise
+    - Army Participated
+    - Date
+- Famous Person - CommitCrime - Release
+    - People Released
+    - Place of sentence
+    - Prison Term
+    - Charges of imprisonment
+    - Jail time
+    - Judge
+    - Release Time
+    - Reason for release
+    - Defense lawyer
+- Train collisions
+    - Economic loss
+    - Train No.
+    - Survivors
+    - Investigator of the accident
+    - Causes
+    - The hospital where the wounded was taken
+    - Agency to which the train belongs
+    - Location
+    - Missings
+    - Date
+    - Casualties and Losses
+- Mudslides
+    - Temporary settlement
+    - Economic Loss
+    - Number of people rescued
+    - Causes
+    - Aid agency
+    - Missings
+    - Areas affected
+    - Aid supplies/amount
+    - Number of Destroyed building
+    - Date
+    - Influence People
+    - Number of evacuated
+    - Casualties and Losses
+- Break historical records
+    - Record-breaking project
+    - Record-breaker
+    - Previous record holder
+    - Location
+    - Last time the record was broken
+    - The Grades of the previous record holder
+    - Date
+    - Grades
+- Earthquakes
+    - Number of Aftershocks
+    - Economic loss
+    - Temporary settlement
+    - Number of Houses Rebuilt
+    - Epicenter
+    - Number of people rescued
+    - Aid agency
+    - Magnitude
+    - Area Affected
+    - Aid supplies/amount
+    - Number of Destroyed building
+    - Number of People Trapped
+    - Date
+    - Number of evacuated
+    - Casualties and Losses
+- Environment Pollution
+    - Party responsible for pollution
+    - Causes
+    - Solution
+    - Pollution source
+    - Location
+    - Number of victims
+    - Anti-pollution people/organizations
+    - Date
+- Famous Person - CommitCrime - Accuse
+    - The Charged Crime
+    - Time of the case
+    - Evidence
+    - Prosecution lawyer
+    - Prosecutor
+    - The accused people
+    - Witness
+    - Defense lawyer
+- Organization Established
+    - Spokenmen
+    - Registered capital
+    - Causes
+    - Organization name
+    - Location
+    - Head of Institution
+    - Date
+- New wonders in nature
+    - Live broadcast platform
+    - Lasting Time
+    - Best why to shoot
+    - The time when the spectacle appeared
+    - Causes
+    - Types of wonders
+    - Forecasting agency
+    - The time when the spectacle disappeared
+    - The location where the spectacle can be observed
