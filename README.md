@@ -5,7 +5,7 @@ DocEE: A Large-Scale and Fine-grained Benchmark for Document-level Event Extract
 # Introduction
 DocEE, a new document-level event extraction dataset including 27,000+ events, 180,000+ arguments. DocEE has three features: large-scale manual annotations, fine-grained argument schema and application-oriented settings.DocEE focuses on the extraction of the main event, that is *one-event-per-document*. 
 
-Our academic paper which describes DocEE in detail and provides full event ontology can be found here: https://tongmeihan1995.github.io/meihan.github.io/research/NAACL2022.pdf.
+Our academic paper can be found here: https://tongmeihan1995.github.io/meihan.github.io/research/NAACL2022.pdf.
 
 # Download DocEE
 The dataset is now available at https://drive.google.com/drive/folders/1_cRnc2leAmOKT9Ma8koz6X8Ivl-_lapp?usp=sharing, which including three files:
@@ -21,7 +21,7 @@ To construct event schema, we gain insight from journalism, which divides events
 
 **Soft news** refers to interesting incidents related to human life, such as celebrity deeds, sports events and other entertainment-centric reports. 
 
-Based on the hard/soft news theory and the category framework in (Lehman-Wilzig and Seletzky, 2010), we define a total of 59 event types, with 31 hard news event types and 28 soft news event types. Detailed information is shown in **Event Schema.md**.
+Based on the hard/soft news theory and the category framework in (Lehman-Wilzig and Seletzky, 2010), we define a total of 59 event types, with 31 hard news event types and 28 soft news event types. We provides full event ontology in **Event Schema.md**.
 
 # Example of DocEE
 DocEE aims at **Event Classification** and **Event Arguments Extraction**. Here is an example of DocEE. 
