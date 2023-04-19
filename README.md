@@ -8,11 +8,17 @@ DocEE, a new document-level event extraction dataset including 27,000+ events, 1
 Our academic paper can be found here: https://tongmeihan1995.github.io/meihan.github.io/research/NAACL2022.pdf.
 
 # Download DocEE
-The dataset is now available at https://drive.google.com/drive/folders/1_cRnc2leAmOKT9Ma8koz6X8Ivl-_lapp?usp=sharing, which including three files:
+DocEE is now available at https://drive.google.com/drive/folders/1_cRnc2leAmOKT9Ma8koz6X8Ivl-_lapp?usp=sharing, which including three files:
 
 - **DocEE-en.json**(All Data) 
 - **normal_setting** (Train/Dev/Test under Normal Setting)
 - **cross_domain_setting** (Train/Dev/Test under Cross-Domain Setting)
+
+# Download DocEE-zh
+DocEE-zh is now available, the dataset and its ontology can be downloaded from https://drive.google.com/drive/folders/15YDTsiTvt7qMC9itKoK5IyUAdcD8ezXB?usp=share_link. DocEE-zh contains 36,729 annotation data.
+
+# Baseline
+Baseline and evaluation indicators can refer to the project https://github.com/tongmeihan1995/DocEE-Application
 
 # Event Schema of DocEE
 To construct event schema, we gain insight from journalism, which divides events into **hard news** and **soft news** (Reinemann et al., 2012; Tuchman, 1973). 
